@@ -1,5 +1,19 @@
 {
   "secret": "secret",
   "mongodb": "mongodb://127.0.0.1/manufacturer",
-  "authServicePort": 3002
+  "authServicePort": 3002,
+  "seneca": {
+    "administrator": {
+      "port": 10103
+    },
+    "manufacturer": {
+      "port": 10102
+    },
+    "device": {
+      "port": 10104
+    },
+    "customer": {
+      "port": 10101
+    }
+  }
 }
